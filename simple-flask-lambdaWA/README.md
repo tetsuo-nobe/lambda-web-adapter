@@ -1,5 +1,6 @@
 # Lambda Web Adapter 
-
+- Lambda Web Adapter を使用した Lambda 関数を作成するには、コンテナ形式でのデプロイが必要。よって Amazon ECR の使用が必須となる。
+  - **Dockerfile に COPY 文を 1 つ追加するだけでよい**
 - 参考ドキュメント
   - [Lambda Web Adapter でウェブアプリを (ほぼ) そのままサーバーレス化する](https://aws.amazon.com/jp/builders-flash/202301/lambda-web-adapter/)
   - [AWS Lambda の上でいろんなWEB フレームワークを動かそう！](https://speakerdeck.com/_kensh/web-frameworks-on-lambda)
